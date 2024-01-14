@@ -1,0 +1,121 @@
+
+body {
+    background-color: rgb(57, 69, 77);
+}
+section {
+    background: linear-gradient(135deg,#00feba,rgb(94, 94, 168));
+    position: absolute;
+    top: 3vw;
+    left: 35vw;
+    width: 70vh;
+    height: 90vh;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search {
+    width: 60%;
+    /* background-color: rgb(63, 165, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+} 
+
+.search input{
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+    width: 15vw;
+    margin: 0px 10px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 50px;
+    flex:0.8;
+    outline: 0;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 25px;
+}
+
+.temp p{
+    font-size: 50px;
+    color: rgb(216, 27, 27);
+    margin-top: 0;
+    height: 190px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.attribute {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    /* background-color: #00feba; */
+    width: 80%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 29vw;
+}
+
+.clear{
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+    color: white;
+    width:100%;
+    height: 40%;
+}
+.clear img{
+
+    height: 200px;
+    width: 200px;
+}
+.clear div{
+    position: relative;
+    bottom: 30px;
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    font-size: 40px;
+    line-height: 0px;
+}
+.clear div h1{
+    margin: 25px;
+    font-size: 90px;
+}
+.humidity {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+.wind{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.myInfo {
+    display: None;
+}

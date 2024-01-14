@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>weather app</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <!-- <script src="myScript.js"></script> -->
+    
+</head>
+<body>
+    <!-- search bar + submit -->
+    <section>
+        <form class="search">
+            <input type="text" placeholder="region" required>
+            <button type="submit"><img src="images/search.png"></button>
+        </form>
+        <!-- weather Info: sun + temp + region + humidity+ wind speed -->
+        <code class="myInfo">
+            <div class="clear">
+                <img id="weather" src ="images/clear.png" >
+                <div>
+                    <p>Temperature:</p>
+                    <br>
+                    <h1 id="temp">?</h1>
+                    <br> 
+                    <p id="City"><strong>City</strong></p>
+                </div>
+            </div>
+            <div class="attribute">
+                <div class="humidity">
+                    <img src ="images/humidity.png">
+                    <div>
+                        <p>humidity</p>
+                        <p id="humidity">?</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <img src ="images/wind.png">
+                    <div>
+                        <p>windspeed</p>
+                        <p id="windspeed">?</p>
+                    </div>
+                </div>
+            </div>
+        </code>
+    </section>
+    <script src="myScript.js"></script>
+</body>
+</html>
