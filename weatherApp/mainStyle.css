@@ -8,7 +8,7 @@ section {
     top: 3vw;
     left: 35vw;
     width: 70vh;
-    height: 90vh;
+    min-height: 25vh;
     border-radius: 60px;
     display: flex;
     flex-direction: column;

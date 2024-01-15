@@ -31,6 +31,7 @@ const apiKey = "a7edbf1e1a9f1857d163e5034b7d5cd9";
                 weather.src="images/drizzle.png";
 
             document.querySelector(".myInfo").style.display = "block";
+            document.getElementById("section").style.minHeight="90vh";
         }
         btn.addEventListener("click",function(event){
             
